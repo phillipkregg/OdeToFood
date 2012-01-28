@@ -1,0 +1,14 @@
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\bin\OdeToFood.dll
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\bin\OdeToFood.pdb
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\bin\EntityFramework.dll
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\bin\EntityFramework.xml
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\obj\Debug\OdeToFood.dll
+C:\Visual Studio 2010 Practice\OdeToFood\OdeToFood\obj\Debug\OdeToFood.pdb
+C:\VS_2010_Practice\OdeToFood\OdeToFood\bin\OdeToFood.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood\bin\OdeToFood.pdb
+C:\VS_2010_Practice\OdeToFood\OdeToFood\bin\EntityFramework.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood\bin\EntityFramework.xml
+C:\VS_2010_Practice\OdeToFood\OdeToFood\obj\Debug\ResolveAssemblyReference.cache
+C:\VS_2010_Practice\OdeToFood\OdeToFood\obj\Debug\OdeToFood.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood\obj\Debug\OdeToFood.pdb

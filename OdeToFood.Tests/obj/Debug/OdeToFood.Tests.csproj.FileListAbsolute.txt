@@ -1,0 +1,11 @@
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\OdeToFood.Tests.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\OdeToFood.Tests.pdb
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\nunit.framework.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\nunit.mocks.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\OdeToFood.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\pnunit.framework.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\OdeToFood.pdb
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\nunit.framework.xml
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.pdb

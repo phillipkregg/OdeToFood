@@ -1,0 +1,40 @@
+﻿@using OdeToFood.Infrastructure
+@model IEnumerable<OdeToFood.Models.RestaurantReview>
+
+@{
+    ViewBag.Title = "Index";
+    var first = Model.First();
+         
+}
+
+<h2>The Latest Reviews</h2>
+
+
+
+@foreach (var item in Model)
+{
+    @:<h3>Review</h3>
+    <div>
+        @item.Restaurant.Name
+
+        @Html.Image(item.Restaurant.ImageUrl, item.Restaurant.Name);
+
+        <span>@item.Rating
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+        </span>
+        <p>@item.Body</p>
+    </div>
+
+}
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@section Footer {
+
+    <p>This is the footer</p>
+    
+}
