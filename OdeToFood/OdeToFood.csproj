@@ -67,6 +67,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CuisineController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RestaurantController.cs" />
     <Compile Include="Controllers\ReviewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -74,7 +75,8 @@
     <Compile Include="Infrastructure\LogAttribute.cs" />
     <Compile Include="Infrastructure\MyHelpers.cs" />
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\FoodDb.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\OdeToFoodDB.cs" />
     <Compile Include="Models\Restaurant.cs" />
     <Compile Include="Models\Review.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -169,6 +171,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Reviews\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Restaurant\Index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

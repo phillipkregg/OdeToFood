@@ -5,7 +5,7 @@ using System.Web;
 
 namespace OdeToFood.Models
 {
-    public class RestaurantReview
+    public class Review
     {
         
         public int ID { get; set; }

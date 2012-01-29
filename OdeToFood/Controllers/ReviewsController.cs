@@ -12,7 +12,7 @@ namespace OdeToFood.Controllers
     public class ReviewsController : Controller
     {
 
-        FoodDb _db = new FoodDb();
+        OdeToFoodDB _db = new OdeToFoodDB();
 
         //
         // GET: /Reviews/
@@ -24,13 +24,13 @@ namespace OdeToFood.Controllers
         }
 
 
-        [ChildActionOnly]
-        public ActionResult BestReview()
-        {
-            var model = _db.Reviews.FindTheBest();
-            return PartialView("_Review", model);
+        //[ChildActionOnly]
+        //public ActionResult BestReview()
+        //{
+        //    var model = _db.Reviews.FindTheBest();
+        //    return PartialView("_Review", model);
 
-        }
+        //}
 
 
 

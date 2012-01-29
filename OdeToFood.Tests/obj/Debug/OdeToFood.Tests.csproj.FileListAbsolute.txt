@@ -9,3 +9,5 @@ C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\OdeToFood.pdb
 C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\nunit.framework.xml
 C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.dll
 C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\obj\Debug\OdeToFood.Tests.pdb
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\EntityFramework.dll
+C:\VS_2010_Practice\OdeToFood\OdeToFood.Tests\bin\Debug\EntityFramework.xml
