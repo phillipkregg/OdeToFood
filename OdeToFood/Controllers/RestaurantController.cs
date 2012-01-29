@@ -15,9 +15,24 @@ namespace OdeToFood.Controllers
 
         OdeToFoodDB _db = new OdeToFoodDB();
 
-        public ActionResult Index()
+        public ActionResult Index(string state)
         {
-            var model = _db.Restaurants;
+            var model = _db.Restaurants
+                            .OrderByDescending(r => r.Address.City)
+                            .Where(r => r.Address.State == state || (state == null));
+                            
+                       
+            
+            
+            
+            //var model = from r in _db.Restaurants
+            //            orderby r.Address.City descending
+            //            where r.Address.State == state || state == null
+            //            select r;
+                        
+
+
+
             return View(model);
         }
 
