@@ -23,6 +23,17 @@ namespace OdeToFood.Controllers
             return View(model);
         }
 
+
+        [ChildActionOnly]
+        public ActionResult BestReview()
+        {
+            var model = _db.Reviews.FindTheBest();
+            return PartialView("_Review", model);
+
+        }
+
+
+
         //
         // GET: /Reviews/Details/5
 

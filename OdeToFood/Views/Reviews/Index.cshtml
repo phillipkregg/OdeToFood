@@ -12,18 +12,8 @@
 
 
 @foreach (var item in Model)
-{
-    @:<h3>Review</h3>
-    <div>
-        @item.Restaurant.Name
-
-        @Html.Image(item.Restaurant.ImageUrl, item.Restaurant.Name);
-
-        <span>@item.Rating
-            @Html.ActionLink("Edit", "Edit", new { id = item.ID })
-        </span>
-        <p>@item.Body</p>
-    </div>
+{   
+    @Html.Partial("_Review", item);
 
 }
 
@@ -32,6 +22,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
 
 @section Footer {
 

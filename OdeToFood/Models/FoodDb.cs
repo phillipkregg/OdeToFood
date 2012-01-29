@@ -56,5 +56,6 @@ namespace OdeToFood.Models
         }
 
         static List<RestaurantReview> _reviews;
+
     }
 }

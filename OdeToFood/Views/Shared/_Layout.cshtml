@@ -23,7 +23,7 @@
                 <ul id="menu">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>                   
-                    <li>@Html.ActionLink("Read Reviews - Fool", "Index", "Reviews")</li>
+                    <li>@Html.ActionLink("Read Reviews", "Index", "Reviews")</li>
                 </ul>
 
             </div>
@@ -31,7 +31,8 @@
 
         <div id="main">
             @RenderBody()
-            <div id="footer">   
+            <div id="footer">
+            @Html.Action("BestReview", "Reviews");   
             @RenderSection("Footer", false)          
             </div>
         </div>
