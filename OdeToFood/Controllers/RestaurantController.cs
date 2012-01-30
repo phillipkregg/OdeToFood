@@ -28,12 +28,19 @@ namespace OdeToFood.Controllers
             //            orderby r.Address.City descending
             //            where r.Address.State == state || state == null
             //            select r;
-                        
+         
+            return View(model);
+        }
 
 
+        public ActionResult Details(int id)
+        {
+            var model = _db.Restaurants.Single(r => r.ID == id);
 
             return View(model);
         }
+
+
 
     }
 }

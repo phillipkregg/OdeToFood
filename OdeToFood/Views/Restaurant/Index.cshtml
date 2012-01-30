@@ -6,11 +6,6 @@
 
 <h2>Index</h2>
 
-@using (Html.BeginForm("Index", "Restaurant", FormMethod.Get))
-{
-    @Html.DropDownList("state", new SelectList(ViewBag.States))
-    <input type="submit" value="Filter" />
-}
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -29,20 +24,13 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @item.Name
+            @Html.ActionLink(item.Name, "Details", "Restaurant", new {id = item.ID}, null),
         </td>
         <td>
             @item.Address.City, @item.Address.State
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
+        
     </tr>
 }
 
 </table>
-
-
-@Html.ActionLink("Show restaurants in MD", "Index", "Restaurant", new {state = "MD"}, null)

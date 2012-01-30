@@ -1,0 +1,13 @@
+﻿@model OdeToFood.Models.Review
+
+
+<div class="review">
+    <h4>@Model.Restaurant.Name</h4>
+    <span>Rating: @Model.Rating</span>
+    <p>
+        @Model.Body
+        <span class="right">
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ID })
+        </span>
+    </p>
+</div>

@@ -19,7 +19,7 @@ namespace OdeToFood.Controllers
 
         public ActionResult Index()
         {
-            var model = _db.Reviews.FindTheLatest(3);
+            var model = _db.Reviews.FindTheLatest(10);
             return View(model);
         }
 
@@ -47,19 +47,21 @@ namespace OdeToFood.Controllers
 
         public ActionResult Create()
         {
-            return View();
+            return View(new Review());
         } 
 
         //
         // POST: /Reviews/Create
 
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(int restaurantID, Review newReview)
         {
             try
             {
-                // TODO: Add insert logic here
-
+                var restaurant = _db.Restaurants.Single(r => r.ID == restaurantID);
+                restaurant.Reviews.Add(newReview);
+                _db.SaveChanges();
+                
                 return RedirectToAction("Index");
             }
             catch
