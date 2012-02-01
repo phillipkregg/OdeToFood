@@ -89,10 +89,11 @@ namespace OdeToFood.Controllers
 
             if (TryUpdateModel(review))
             {
+                _db.SaveChanges();
                 return RedirectToAction("Index");
             }           
             
-            return View();
+            return View(review);
            
         }
 
