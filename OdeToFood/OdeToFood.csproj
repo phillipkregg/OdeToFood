@@ -83,6 +83,7 @@
     <Compile Include="Queries\RestaurantReviewQueries.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\edit.png" />
     <Content Include="Content\images\info.png" />
     <Content Include="Content\images\OdeToFood.png" />

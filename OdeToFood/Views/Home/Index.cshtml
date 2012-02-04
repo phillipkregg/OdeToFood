@@ -4,4 +4,13 @@
 
 <h2>@ViewBag.Message</h2>
 
-
+<div id="latestReview">
+@Ajax.ActionLink("Click here to see latest review", 
+            "LatestReview", new AjaxOptions{
+                    UpdateTargetId="latestReview",
+                    InsertionMode = InsertionMode.Replace,
+                    HttpMethod = "GET",
+                    LoadingElementId="progress"
+            })
+             
+</div>
