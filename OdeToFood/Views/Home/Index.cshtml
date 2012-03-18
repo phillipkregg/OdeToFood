@@ -5,12 +5,16 @@
 <h2>@ViewBag.Message</h2>
 
 <div id="latestReview">
-@Ajax.ActionLink("Click here to see latest review", 
-            "LatestReview", new AjaxOptions{
-                    UpdateTargetId="latestReview",
-                    InsertionMode = InsertionMode.Replace,
-                    HttpMethod = "GET",
-                    LoadingElementId="progress"
-            })
+    @Ajax.ActionLink("Click here to see latest review", 
+                "LatestReview", new AjaxOptions{
+                        UpdateTargetId="latestReview",
+                        InsertionMode = InsertionMode.Replace,
+                        HttpMethod = "GET",
+                        LoadingElementId="progress"
+                })
              
+</div>
+
+<div id="progress">
+    <img src="@Url.Content("~/Content/images/ajax-loader.gif")" alt="loader image" />
 </div>

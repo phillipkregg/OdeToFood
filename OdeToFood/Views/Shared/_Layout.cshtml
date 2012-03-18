@@ -3,8 +3,7 @@
 <head>
     <title>@ViewBag.Title</title>
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
-   
-    
+       
 </head>
 
 <body>
@@ -41,7 +40,7 @@
     </div>
     
     
-     @Content.Script("jquery-1.4.4.min.js", Url)
+     @Content.Script("jquery-1.5.1.min.js", Url)
      @Content.Script("jquery.unobtrusive-ajax.min.js", Url)
      @RenderSection("scripts", false)
 </body>
